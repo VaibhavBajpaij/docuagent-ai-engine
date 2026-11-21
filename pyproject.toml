@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docuagent-ai-engine"
+version = "1.0.0"
+description = "Enterprise Multi-Agent Knowledge & Document Reasoning Engine with LangGraph, Semantic Caching via Redis, and FastAPI"
+authors = [{ name = "Vaibhav Bajpai", email = "vaibhav.bajpai.tech@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.11"
